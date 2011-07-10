@@ -36,22 +36,23 @@ hi SpecialKey   ctermfg=none
 "  Syntax       highlighting
 hi Comment      ctermfg=243
 hi Todo         ctermfg=196
-hi Constant     ctermfg=75
-hi String       ctermfg=70
+hi Constant     ctermfg=166
+hi String       ctermfg=64
 hi Identifier   ctermfg=none
-hi Function     ctermfg=178
-hi Type         ctermfg=202
-hi Statement    ctermfg=178
+hi Function     ctermfg=166
+hi Type         ctermfg=37
+hi Statement    ctermfg=61
 hi Keyword      ctermfg=75
 hi PreProc      ctermfg=none
 hi Number       ctermfg=none
-hi Identifier   ctermfg=75   cterm=bold
-hi Special      ctermfg=28
+hi Identifier   ctermfg=124 cterm=none
+hi Special      ctermfg=33
 
 " ruby highlighting
 hi rubyDefine ctermfg=58 cterm=bold
-hi link rubyConstant  				Type
+hi link rubyConstant          Type
 hi link rubySymbol            keyword
+hi link rubyInclude           keyword
 hi link rubyClass             Keyword
 hi link rubyModule            Keyword
 hi link rubyKeyword           Keyword
@@ -60,5 +61,5 @@ hi link rubyIdentifier        Identifier
 hi link rubyInstanceVariable  Identifier
 hi link rubyGlobalVariable    Identifier
 hi link rubyClassVariable     Identifier
-hi link rubyArrayDelimiter    Special  " [ , , ]
-hi link rubyCurlyBlock        Special  " { , , }
+hi link rubyArrayDelimiter    Normal " [ , , ]
+hi link rubyCurlyBlock        Normal " { , , }
