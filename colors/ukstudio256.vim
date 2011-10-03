@@ -63,3 +63,7 @@ hi link rubyGlobalVariable    Identifier
 hi link rubyClassVariable     Identifier
 hi link rubyArrayDelimiter    Normal " [ , , ]
 hi link rubyCurlyBlock        Normal " { , , }
+
+hi Pmenu ctermbg=8
+hi PmenuSel ctermbg=61
+hi PmenuSbar ctermfg=0
