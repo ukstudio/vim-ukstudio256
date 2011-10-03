@@ -22,6 +22,7 @@ let colors_name = "ukstudio256"
 
 "  General
 hi Cursor       ctermfg=none
+hi CursorLine   ctermbg=238  cterm=none
 hi Normal       ctermfg=253
 hi NonText      ctermfg=none
 hi LineNr       ctermfg=none
